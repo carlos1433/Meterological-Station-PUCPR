@@ -11,7 +11,7 @@ SSID = "TP-Link_1428"
 PWD = "96875582"
 API_WRITE_KEY = "N8TSEB1CQVG02T4D"
 
-# Conecta à rede WiFi
+# Connects to the local WiFi
 station = connect(SSID, PWD)
 
 # Cria objetos para interagir com os pinos 4 (sensor DHT) e pino 2 (relé, output)
